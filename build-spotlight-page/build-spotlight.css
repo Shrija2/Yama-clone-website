@@ -1,0 +1,30 @@
+.section-b2-div{
+    background-image: url(../images/build-page/section2-bg.jpg);
+    
+}
+.section-b2-div img{
+    width:100%;
+}
+
+#section-b3 img{
+	width:23rem;
+	height:35rem;
+	object-fit: cover;
+}
+#section-b3 .card {
+	width: 23rem;
+	border:none;
+	border-bottom: solid black 2px;
+	border-radius: 0;
+	background-image: url(../images/background-image.jpg);
+	cursor: pointer;
+}
+#section-b3 .card:hover{
+	background-color: white;
+}
+#section-b3 .card-body:hover{
+	padding-left: 25px;
+	padding-right: 25px;
+	background-color: white;
+	transition: 1s;
+}

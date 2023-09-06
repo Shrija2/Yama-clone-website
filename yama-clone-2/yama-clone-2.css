@@ -1,0 +1,24 @@
+*{
+  color: #242424;
+  font-family: Work Sans,sans-serif;
+
+}
+header img {
+	width:10rem;
+}
+.padding-right{
+	padding-right:2rem;
+	
+}
+.font-style
+{font-family: EB Garamond,sans-serif;}
+
+.letter-space{
+	letter-spacing: 0.1rem;
+}
+.bg-grey{
+	background-color: rgb(233, 229, 229);
+}
+#section1 h1{
+	font-size: 5.5rem;
+}
