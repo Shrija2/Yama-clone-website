@@ -11,7 +11,7 @@
 .section-b2-div img{
     width:100%;
 }
-@media(min-width:600px){
+@media(min-width:800px){
     #section-b2{
         display: grid;
         grid-template-columns: 40% 60%;
@@ -82,3 +82,10 @@
 #section-b4 a{
     font-size: 0.8rem!important;
 }
+@media(max-width:600px){
+    #section-b4 a{
+        background-color: #242424;
+        color:white;
+        display: block;
+        padding-top:0.8rem;
+    }

@@ -1,0 +1,139 @@
+.heading-3{
+    font-size:3rem;
+}
+
+.section-a2-div{
+    background-image: url(../images/about-us/bg-1.jpg);
+}
+.section-a2-div img{
+    max-width:100%;
+}
+/*Section-A4*/
+#section-a4 img{
+    max-width:100%}
+
+#section-a4 h1{
+    font-size: 2.3rem;
+}
+#section-a4 .caption{
+    font-size: 0.8rem;
+    color:#504f4f;
+}
+
+@media(min-width:600px){
+    #section-a4{
+        display:grid;
+        grid-template-columns: 35% 60%;
+        justify-content: space-between;
+    }
+   
+}
+
+/*Section-A5*/
+.section-a5-div{
+    display: grid;
+    justify-content: space-between;
+}
+#section-a5 div{
+    padding-bottom:1rem;
+}
+#section-a5 img{
+    max-width: 100%;
+    min-height:100%;
+    object-fit:cover;
+}
+#section-a5 a{
+    border-radius: 5rem;
+    background-color: #242424;
+    color:white;
+    padding:1rem 3rem;
+    font-size:0.7rem;
+    font-weight: 500;
+    
+    
+}
+
+@media(min-width:600px){
+    .section-a5-div{
+        display: grid;
+        grid-template-columns:60% 30%;
+        justify-content: space-between;
+    }
+    #section-a5 a{
+        border-bottom:#242424 solid 2px ;
+        border-radius:0;
+        background-color: white;
+        color:#242424;
+        padding-bottom: 2px;
+        margin:0;
+        padding:0;
+    }
+}
+
+/*Section-A6*/
+#section-a6{
+    background-color: #242424;
+}
+#section-a6 .first-li{
+    border-top: white solid 2px;
+}
+#section-a6 li{
+   
+    padding:2rem 1rem;
+    border-bottom: white solid 2px;
+    text-align: justify;
+    
+}
+@media(min-width:600px){
+    #section-a6{
+        display: grid;
+        grid-template-columns: 40% 55%;
+    }
+    #section-a6 li{
+        padding:2rem 0;}
+}
+
+/*Section-A7*/
+#section-a7{
+    padding-bottom: 5rem;
+}
+#section-a7 .sustainability-img{
+    max-width: 100%;
+}
+.trees-2000{
+    max-width: 60%;
+    opacity: 0.9;
+}
+#section-a7 h1{
+    font-size: 2.5rem;
+}
+@media(min-width:600px){
+    .section-a7-div{
+        display: grid;
+        grid-template-columns: 46% 46%;
+        justify-content: space-between;
+    }
+    #section-a7 .sustainability-img{
+        max-width: 100%;
+        min-height:100%;
+        object-fit:cover;
+    }
+}
+
+/*Section-A8*/
+#section-a8{
+    text-align: center;
+    background-image: url(../images/build-page/section-b4-bg.jpg);
+}
+#section-a8 a{
+    font-size: 0.8rem!important;
+}
+@media(max-width:600px){
+    #section-a8 a{
+        background-color: #242424;
+        color:white;
+        display: block;
+        padding-top:0.8rem;
+    }
+
+}

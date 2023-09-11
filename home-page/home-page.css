@@ -1,4 +1,10 @@
 /*Global*/
+header .container{
+    padding:0;
+	margin:0;
+}
+
+
 .explore-link
 	{margin:0;
 	padding-bottom:8px;
@@ -87,9 +93,11 @@ h2{
 
 
 /*Header*/
-
-header img {
-	width:10rem;
+#navmenu{
+	margin-left: 6rem;
+}
+.yama-logo{
+	width:8rem;
 }
 
 header{
@@ -100,7 +108,7 @@ header{
 	width:100%;
 }
 
-header .container{
+header .container2{
 	display: flex;
 	justify-content: space-between; 
 	padding-top: 42px;
@@ -117,8 +125,9 @@ header li{
 	margin-right: 1rem;
 	padding-top: 2px;
 	padding-bottom: 2px;
-	font-size: 15px;
+	font-size: 11px;
 	font-weight: bold;
+	color:#242424;
 }
 
 header li:hover{
@@ -133,9 +142,10 @@ header button{
 	text-transform: uppercase;
 	background-color: #242424;
 	border: 2px solid #242424;
-	padding: 0.6rem 2rem;
-	font-size: 14px;
+	padding: 0.6rem 1rem;
+	font-size: 12px;
 	font-weight: 600;
+	margin-left: 3rem;
 	
 }
 header button:hover{
@@ -147,12 +157,7 @@ header button:hover{
 		display:none;
 	}
 
-	header .top-line{
-		width: 35px;
-		height: 5px;
-		background-color: black;
-		margin: 6px 0;
-	}
+
 }
 
 
@@ -169,7 +174,7 @@ header button:hover{
 	margin-top: 0;
 	margin-bottom: 1rem;
 	font-family: EB Garamond,sans-serif;
-	font-size: 5rem;
+	font-size: 4rem;
 	font-weight: 400;
 	line-height: 1;
 	margin-right:6rem;
@@ -177,7 +182,7 @@ header button:hover{
 
 #section1 p{
 	text-transform: uppercase;
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 	font-weight: 600;
 	line-height: 1.4;
 	letter-spacing: 1.5px;
@@ -188,7 +193,7 @@ header button:hover{
 }
 
 .section1-div2{
-	flex:0.6;
+	flex:0.8;
 	
 }
 
@@ -504,10 +509,7 @@ header button:hover{
 	padding-bottom: 128px;
 	background-color: white;
 }
-#section9 .yama-logo{
-	width:10rem;
-	height:3.5rem;
-}
+
 #section9 p{
 	display:inline;
 	font-size: 1rem;
@@ -518,12 +520,13 @@ header button:hover{
 .nav-bottom{
 	flex:1;
 	display: grid;
-	grid-template-columns: 50% 50%;
-	font-size: 2.2rem;
+	grid-template-columns: 48% 48%;
+	font-size: 1.8rem;
     font-weight: 500;
     line-height: 1;
 	justify-content: space-between;
 	margin-left:20px;
+	font-family: EB Garamond,sans-serif;
 }
 #section9 .section9-container{
 	display: flex;
@@ -544,8 +547,7 @@ header button:hover{
 	margin-bottom: 0;
 }
 .nav-bottom div{
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 .nav-bottom a:hover{
 	border-bottom: solid black 2px;
