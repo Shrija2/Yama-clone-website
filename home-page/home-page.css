@@ -505,7 +505,7 @@ header button:hover{
 
 /*Section9*/
 #section9 {
-	padding-top: 128px;
+	padding-top: 100px;
 	padding-bottom: 128px;
 	background-color: white;
 }
@@ -615,3 +615,10 @@ header button:hover{
 	#section10 .container {
 		display:block;
 }}
+
+@media(max-width:600px){
+	#section10 .section10-a1{
+		margin-right:0;
+		margin-left:0;
+	}
+}

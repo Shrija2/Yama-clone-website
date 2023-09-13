@@ -1,0 +1,98 @@
+/*Section-C3*/
+#section-c3 .title{ 
+    font-weight: bold;   
+}
+#section-c3 .optional{
+    background-color: #242424;
+    font-style: italic;
+    color:white;
+    font-size: 0.9rem;
+    padding-left:30px;
+    
+
+}
+#section-c3 .heading{
+    display:grid;
+    grid-template-columns: 70% 10%;
+    padding:20px;
+    color:white;
+    background-color: #242424;
+}
+#section-c3 button{
+    
+    color: white;
+    cursor: pointer;
+    
+
+}
+#section-c3 .info{
+    padding-top:10px;
+    font-size: 0.8rem;
+    padding-left:2rem;
+    padding-right:3rem;
+    
+}
+#section-c3 label{
+    margin-top:10px;
+    margin-bottom:5px;
+
+}
+#section-c3 .next{
+    float:right;
+    
+}
+
+#section-c3 h3{
+    font-size: 1rem;
+
+}
+#section-c3 .info h3{
+    display: inline;
+   
+    padding-bottom:10px;
+}
+#section-c3 .info p{
+    padding-left:15px;
+}
+
+
+#section-c3 .form-grid1 input{
+    display: block;
+}
+#section-c3 .submit{
+    float: right;
+    margin-right:70px;
+    font-size: 0.8rem;
+}
+
+
+@media(min-width:600px) {
+    #section-c3 button{
+        margin-top:3rem;}
+    #section-c3 .grid-c3{
+        display: grid;
+        grid-template-columns: 32% 32% 32%;
+        justify-content: space-between;
+    }
+    #section-c3 .grid-c3 div{
+    border:solid 2px #242424;
+    padding:1rem;}
+
+    #section-c3 .grid-c3 div .yes-no-class{
+        border: none;
+    }
+    #section-c3 .form-grid2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between; 
+    }
+    #section-c3 .form-grid1{
+        display: grid;
+        grid-template-columns: 1fr 40%;
+        justify-content: space-between; 
+    }
+    #section-c3 .carousel-item{
+        min-height:19rem;
+    }
+
+}
