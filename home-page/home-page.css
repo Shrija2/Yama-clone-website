@@ -48,7 +48,9 @@ body{
 @media(max-width:600px){
 	.padding-left-right{
 	padding-left:1rem;
-	padding-right:rem;}
+	padding-right:1rem;
+	}
+	
 }
 @media(max-width:400px){
 	.padding-left-right{
@@ -273,8 +275,8 @@ header button:hover{
 	font-weight: bold;
 }
 @media (max-width:1000px){
-	#section3 h2{
-		font-size:2.5rem;
+	#section3 h2, #section5 h2, #section8 h2{
+		font-size: 2.5rem;
 	}
 	#section3 .description-points{
 		flex:1.5;
@@ -377,7 +379,6 @@ header button:hover{
 
 #section5 {
 	padding-top:5rem;
-	
 	background-image: url(../images/background-image.jpg);
 }
 #section5 img{
@@ -407,6 +408,7 @@ header button:hover{
 	#section5{
 		padding-left:2rem;
 		padding-right:2rem;
+		padding-top:4rem;
 	}
 .section5-1{
 	flex-direction: column;
@@ -415,6 +417,7 @@ header button:hover{
 	margin-left:0;
 	margin-right:auto;
 }
+
 }
 
 /*Section6*/
@@ -446,17 +449,26 @@ header button:hover{
     font-weight: 400;
     line-height: 1.3;
 }
+#section6 .font-desktop{
+	font-size: 1.7rem;
+	padding-left:2rem;
+	padding-right:2rem;
+}
 #section6 .name{
 	font-size: 16px;;
 }
-/*
-#section6 .carousel-control-prev-icon {
-	background-image: url('prev-icon.png');}*/
+
 #section6 .carousel-control-prev, #section6 .carousel-control-next{
 	margin:-60px
 }
 #section6 .carousel-control-prev-icon, #section6 .carousel-control-next-icon {
 	filter:invert(1);
+}
+@media(max-width:600px){
+	#section6 .font-mobile{
+		font-size:1.3rem;
+		padding:0;
+	}
 }
 
 
@@ -494,6 +506,7 @@ header button:hover{
 
 @media  (max-width:700px){
 	#section8, #section9 {
+		padding-top: 64px;
 		padding-left:2rem;
 		padding-right:2rem;
 	}
@@ -511,6 +524,10 @@ header button:hover{
 	#section9 .nav-bottom{
 		font-size:1.8rem;
 	}
+	.description-para{
+		font-size: 1rem;
+	}
+	
 }
 
 /*Section9*/
@@ -529,13 +546,14 @@ header button:hover{
 }
 .nav-bottom{
 	flex:1;
+	gap:10px;
 	display: grid;
 	grid-template-columns: 48% 48%;
 	font-size: 1.8rem;
     font-weight: 500;
     line-height: 1;
 	justify-content: space-between;
-	margin-left:20px;
+	margin-bottom:20px;
 	font-family: EB Garamond,sans-serif;
 }
 #section9 .section9-container{
@@ -628,7 +646,7 @@ header button:hover{
 
 @media(max-width:600px){
 	#section10 .section10-a1{
-		margin-right:0;
-		margin-left:0;
+		margin-right: 0px !important;;
+		margin-left:0 !important;
 	}
 }
