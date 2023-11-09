@@ -94,7 +94,7 @@ h2{
 
 /*Header*/
 #navmenu{
-	margin-left: 6rem;
+	margin-left: 12rem;
 }
 .yama-logo{
 	width:8rem;
@@ -125,7 +125,7 @@ header li{
 	margin-right: 1rem;
 	padding-top: 2px;
 	padding-bottom: 2px;
-	font-size: 11px;
+	font-size: 0.9rem;
 	font-weight: bold;
 	color:#242424;
 }
@@ -145,7 +145,7 @@ header button{
 	padding: 0.6rem 1rem;
 	font-size: 12px;
 	font-weight: 600;
-	margin-left: 3rem;
+	margin-left: 5rem;
 	
 }
 header button:hover{
@@ -182,7 +182,7 @@ header button:hover{
 
 #section1 p{
 	text-transform: uppercase;
-	font-size: 0.8rem;
+	font-size: 1rem;
 	font-weight: 600;
 	line-height: 1.4;
 	letter-spacing: 1.5px;
@@ -449,6 +449,16 @@ header button:hover{
 #section6 .name{
 	font-size: 16px;;
 }
+/*
+#section6 .carousel-control-prev-icon {
+	background-image: url('prev-icon.png');}*/
+#section6 .carousel-control-prev, #section6 .carousel-control-next{
+	margin:-60px
+}
+#section6 .carousel-control-prev-icon, #section6 .carousel-control-next-icon {
+	filter:invert(1);
+}
+
 
 /*Section7*/
 #section7
