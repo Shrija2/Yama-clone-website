@@ -114,6 +114,23 @@ background-image: url(../images/process-page/section-p2-background-img.jpeg);
 #section-p4 hr{
     color:black 2px;
 }
+.process-carousel-grid{
+    display: grid;
+    grid-template-columns: 35% 60%;
+    gap:3%;
+}
+#section-p4 .carousel-control-prev{
+    margin-left:950px;
+    height:50px;
+}
+#section-p4 .carousel-control-next{
+    margin-right:0px;
+    height:50px;
+}
+#section-p4 .carousel-control-next-icon, 
+#section-p4 .carousel-control-prev-icon{
+    filter:invert(1);
+}
 
 @media(min-width:600px){ 
     .carosel-off{
@@ -132,14 +149,17 @@ background-image: url(../images/process-page/section-p2-background-img.jpeg);
         font-weight: 400;
         line-height: 1;
 }
+.accordion-button{
+    font-size: 1.3rem!important;
+}
 .accordion-body{
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 .contact-us{
     background-color:#f1efec ;
     text-align: center;
 }
-.contact-us a, #section-p7 a{
+.contact-us a{
     background-color: #242424;
     color:white;
     display: block;
@@ -183,7 +203,7 @@ background-image: url(../images/process-page/section-p2-background-img.jpeg);
         line-height: 1;
 }
 .section-p6-div1 p{
-    font-size: 0.8rem;
+    font-size: 0.99rem;
 }
 
 #section-p6 .grid{
@@ -222,6 +242,22 @@ background-image: url(../images/process-page/section-p2-background-img.jpeg);
 
 .section-p7-div{
     background-color: white;
-    text-align: center;
+    text-align: center;  
+}
+.get-started{
+    padding:10px;
+    width:20%;
+    margin:auto;
+    border:#242424 solid 1px;
+    background-color: #242424;
+    color:white;
+    display: block;
+    border-radius: 20px;
+}
+.get-started:hover{
+    color:#242424;
+    font-weight: bold;
+    background-color: white;
+    border:#242424 solid 1px;
 }
 

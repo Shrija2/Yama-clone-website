@@ -1,6 +1,16 @@
+.section-c1{
+    background-image: url(../images/background-image.jpg);
+}
+#section-c2 p{
+    font-size: 1.3rem;
+    width:60%;
+}
+
 /*Section-C3*/
+
 #section-c3 .title{ 
-    font-weight: bold;   
+    font-weight: bold;  
+    font-size: 1.5rem; 
 }
 #section-c3 .optional{
     background-color: #242424;
@@ -13,7 +23,7 @@
 }
 #section-c3 .heading{
     display:grid;
-    grid-template-columns: 70% 10%;
+    grid-template-columns: 85% 15%;
     padding:20px;
     color:white;
     background-color: #242424;
@@ -32,9 +42,25 @@
     padding-right:3rem;
     
 }
+.grid-c3 p{
+    font-size: 1rem;
+    padding-top:5px;
+}
+#section-c3 .yes-no-class{
+    font-size: 1rem;
+}
+.van-info input,
+.van-info select{
+    width:70%;
+    height:40%;
+    border:none
+}
 #section-c3 label{
-    margin-top:10px;
-    margin-bottom:5px;
+    margin-top:2%;
+    margin-bottom:1%;
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
 
 }
 #section-c3 .next{
@@ -48,7 +74,6 @@
 }
 #section-c3 .info h3{
     display: inline;
-   
     padding-bottom:10px;
 }
 #section-c3 .info p{
@@ -58,11 +83,33 @@
 
 #section-c3 .form-grid1 input{
     display: block;
+    width:70%;
+    border:none;
+    height:50%;
+    margin-bottom:5%;
+}
+#section-c3 .form-grid1 select{
+    width:70%;
+    border:none;
+    height:60%;
 }
 #section-c3 .submit{
     float: right;
-    margin-right:70px;
-    font-size: 0.8rem;
+    margin-right:100px;
+    font-size:1rem;
+}
+#section-c3 .form-message{
+    margin-left:40%;
+    width:80%;
+}
+#section-c3 .back,
+#section-c3 .next{
+    border: solid 2px;
+}
+#section-c3 .back:hover, 
+#section-c3 .next:hover,
+#section-c3 .submit:hover{
+    filter:invert(1);
 }
 
 

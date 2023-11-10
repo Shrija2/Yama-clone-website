@@ -71,12 +71,10 @@ body{
 	padding: 1rem 0.75rem;
 	align-items: center;
 	border:solid white;
-
 }
 a{
 	text-decoration: none;
 }
-
 .description-para{
 	flex:1;
 	line-height: 1.4;
@@ -89,10 +87,6 @@ h2{
     font-weight: 400;
     line-height: 1.2;
 }
-
-
-
-
 
 /*Header*/
 #navmenu{
@@ -136,7 +130,10 @@ header li:hover{
 	text-decoration: underline 2px;
 	cursor: pointer;
 }
-
+.start-button{
+	margin-left: auto;
+	margin-right: 1rem;
+}
 header button{
 	min-width: auto;
 	color: #fff;
@@ -147,7 +144,7 @@ header button{
 	padding: 0.6rem 1rem;
 	font-size: 12px;
 	font-weight: 600;
-	margin-left: 5rem;
+	
 	
 }
 header button:hover{
@@ -167,7 +164,8 @@ header button:hover{
 #section1{
 	padding-top: 3rem;
   	padding-bottom: 2rem;
-	display: flex;
+	display: grid;
+	grid-template-columns: 65% 35%;
 	justify-content: space-between;
 	background-color: white;
 }
@@ -195,7 +193,6 @@ header button:hover{
 }
 
 .section1-div2{
-	flex:0.8;
 	
 }
 
@@ -451,6 +448,8 @@ header button:hover{
 }
 #section6 .font-desktop{
 	font-size: 1.7rem;
+}
+#section6 .padding{
 	padding-left:2rem;
 	padding-right:2rem;
 }
@@ -459,7 +458,8 @@ header button:hover{
 }
 
 #section6 .carousel-control-prev, #section6 .carousel-control-next{
-	margin:-60px
+	margin-left:-90px;
+	margin-right:-90px;
 }
 #section6 .carousel-control-prev-icon, #section6 .carousel-control-next-icon {
 	filter:invert(1);
@@ -467,7 +467,13 @@ header button:hover{
 @media(max-width:600px){
 	#section6 .font-mobile{
 		font-size:1.3rem;
+	}
+	#section6 .padding{
 		padding:0;
+	}
+	#section6 .carousel-control-prev, #section6 .carousel-control-next{
+		margin-left:-50px;
+		margin-right:-50px;
 	}
 }
 
