@@ -141,5 +141,9 @@
     #section-c3 .carousel-item{
         min-height:19rem;
     }
+    #section-c3 .form-message{
+    margin-left:0%;
+    width:80%;
+}
 
 }
