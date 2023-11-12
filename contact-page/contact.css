@@ -2,12 +2,14 @@
     background-image: url(../images/background-image.jpg);
 }
 #section-c2 p{
-    font-size: 1.3rem;
-    width:60%;
+    font-size: 1.1rem;
 }
 
 /*Section-C3*/
-
+#section-c2{
+    padding-top:4%;
+    padding-bottom:4%;
+}
 #section-c3 .title{ 
     font-weight: bold;  
     font-size: 1.5rem; 
@@ -16,9 +18,7 @@
     background-color: #242424;
     font-style: italic;
     color:white;
-    font-size: 0.9rem;
-    padding-left:30px;
-    
+    font-size: 0.9rem;  
 
 }
 #section-c3 .heading{
@@ -36,7 +36,7 @@
 
 }
 #section-c3 .info{
-    padding-top:10px;
+    padding-top:15px;
     font-size: 0.8rem;
     padding-left:2rem;
     padding-right:3rem;
@@ -94,14 +94,16 @@
     height:60%;
 }
 #section-c3 .submit{
-    float: right;
-    margin-right:100px;
     font-size:1rem;
+    margin:0;
 }
-#section-c3 .form-message{
-    margin-left:40%;
-    width:80%;
+#section-c3 .submit input{
+    margin:0;
 }
+#section-c3 .van-info{
+    margin-top:1rem;
+}
+
 #section-c3 .back,
 #section-c3 .next{
     border: solid 2px;
@@ -111,11 +113,21 @@
 #section-c3 .submit:hover{
     filter:invert(1);
 }
+#section-c3 .form-message{
+    margin-left:0px;
+    margin-top:5%;
+    width:80%;
+}
 
+#section-c3 .carousel-item{
+    height:34rem;
+}
+#section-c3 button{
+    margin-top:1rem;}
 
+/*DESKTOP*/
 @media(min-width:600px) {
-    #section-c3 button{
-        margin-top:3rem;}
+
     #section-c3 .grid-c3{
         display: grid;
         grid-template-columns: 32% 32% 32%;
@@ -141,5 +153,26 @@
     #section-c3 .carousel-item{
         min-height:19rem;
     }
+   
+    #section-c3 .form-message{
+        margin-left:40%;
+        width:80%;
+    }
+    #section-c3 .submit{
+        margin-right:100px;
+    margin:1rem;}
+  
+    #section-c3 .optional{
+        padding-left:30px;
+    } 
 
+    #section-c2 p{
+        font-size: 1.3rem;
+        width:60%;
+    }
+    #section-c3 .van-info{
+        margin-top:0;
+    }
+    
+    
 }
