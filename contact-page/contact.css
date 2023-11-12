@@ -153,6 +153,7 @@
     #section-c3 .carousel-item{
         min-height:19rem;
     }
+<<<<<<< HEAD
    
     #section-c3 .form-message{
         margin-left:40%;
@@ -175,4 +176,11 @@
     }
     
     
+=======
+    #section-c3 .form-message{
+    margin-left:0%;
+    width:80%;
+}
+
+>>>>>>> 154dd20dbd1fa168fe685da0747f17aab4f5d2f9
 }
